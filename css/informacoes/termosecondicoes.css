@@ -1,0 +1,152 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header-container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  align-items: center;
+}
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0rem 3rem;
+  background-color: #000;
+  align-items: center;
+}
+.header h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+.lista {
+  color: #fff;
+  display: flex;
+  gap: 2.5rem;
+  list-style: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+.lista li {
+  font-size: 1.2rem;
+}
+.headerbike {
+  background-color: #111;
+  padding-top: 1rem;
+}
+.headerbike h2 {
+  padding-right: 3.2rem;
+  padding-left: 3.2rem;
+}
+.headerbike h1 {
+  padding-right: 3rem;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 1000px) {
+  .lista li {
+    font-size: 1rem;
+    background-color: grey;
+    padding: 1rem;
+    border-radius: 4px;
+  }
+  .lista {
+    color: #fff;
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+  }
+}
+@media (max-width: 700px) {
+  .lista li {
+    font-size: 1rem;
+    background-color: grey;
+    padding: 1rem;
+    border-radius: 4px;
+  }
+  .lista {
+    color: #fff;
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+  }
+}
+@media (max-width: 450px) {
+  .lista li {
+    font-size: 1rem;
+    background-color: grey;
+    padding: 1rem;
+    border-radius: 4px;
+  }
+  .lista {
+    color: #fff;
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+  }
+  .lista li {
+    font-size: 1rem;
+    background-color: grey;
+    padding: 1rem;
+    border-radius: 4px;
+  }
+  .lista {
+    color: #fff;
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin-left: -2rem;
+  }
+  .headerbike h1 {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    font-size: 2.3rem;
+  }
+  .headerbike h2 {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 390px) {
+  .lista li {
+    font-size: 1rem;
+    background-color: grey;
+    padding: 1rem;
+    border-radius: 4px;
+  }
+  .lista {
+    color: #fff;
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+  }
+  .lista li {
+    font-size: 1rem;
+    background-color: grey;
+    padding: 1rem;
+    border-radius: 4px;
+  }
+  .lista {
+    color: #fff;
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+    margin-left: -4rem;
+  }
+}
+
+.termos h2 {
+  font-size: 1.5rem;
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
+.termos p {
+  font-size: 1.1rem;
+  color: #2e2e2e;
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
+.termos {
+  padding-bottom: 4rem;
+}

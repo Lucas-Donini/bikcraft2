@@ -1,0 +1,92 @@
+.seguros {
+  background-color: #111;
+}
+.seguros h1 {
+  padding-top: 3rem;
+}
+.seguros-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  padding: 2rem 2rem 2rem 3.75rem;
+}
+
+.seguros-grid div {
+  background-color: #000;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 2rem 2rem 2rem 3.75rem;
+}
+.seguros-grid li {
+  font-size: 18px;
+  list-style: none;
+  margin-top: 1rem;
+  position: relative;
+}
+.span {
+  font-size: 12px;
+}
+.seguros-grid span {
+  display: block;
+  text-align: right;
+}
+.seguros-grid a {
+  margin-top: 2rem;
+}
+.seguros-grid li::before {
+  content: "";
+  display: inline-block;
+  width: 13px;
+  height: 9px;
+  background-image: url(/bikcraft/img/icones/lista.svg);
+  position: absolute;
+  top: 5px;
+  left: -22px;
+}
+.seguros-grid ul {
+  padding-left: 0;
+  margin-left: 0;
+  text-align: left;
+}
+.botao2:hover {
+  background-color: #9c9c9c;
+}
+.botao:hover {
+  background-color: #a66f00;
+}
+@media (max-width: 870px) {
+  .seguros-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    align-items: center;
+    padding: 2rem 2rem 2rem 3.75rem;
+  }
+}
+@media (max-width: 500px){
+.seguros-grid li {
+  font-size: 1rem;
+  list-style: none;
+  margin-top: 1rem;
+  position: relative;
+}
+.seguros-grid a {
+  margin-top: 2rem;
+  padding: 0.7rem 0.7rem;
+  font-size: 1rem;
+}
+.seguros-grid div {
+  background-color: #000;
+  display: grid;
+  grid-template-columns: auto;
+  padding: 2rem 2rem 2rem 3.75rem;
+}
+.seguros-grid span {
+  display: block;
+  text-align: left;
+}
+.seguros-grid h2{
+  font-size: 2.3rem;
+}
+}

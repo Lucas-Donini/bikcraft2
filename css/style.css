@@ -1,0 +1,18 @@
+/* home e global */
+@import "/bikcraft/css/home/header.css";
+@import "/bikcraft/css/home/bikes.css";
+@import "/bikcraft/css/home/compositorio.css";
+@import "/bikcraft/css/home/coresetextos.css";
+@import "/bikcraft/css/home/tecnologia.css";
+@import "/bikcraft/css/home/parceiros.css";
+@import "/bikcraft/css/home/depoimento.css";
+@import "/bikcraft/css/home/seguros.css";
+@import "/bikcraft/css/home/footer.css";
+
+/* parte bicicletas */
+@import "/bikcraft/css/bicicletas/headerbike.css";
+@import "/bikcraft/css/bicicletas/bicicletas.css";
+@import "/bikcraft/css/bicicletas/produto.css";
+/* parte informacoes */
+@import "/bikcraft/css/informacoes/termosecondicoes.css";
+@import "/bikcraft/css/informacoes/seguros.css";

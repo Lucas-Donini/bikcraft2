@@ -1,0 +1,39 @@
+.botao {
+  text-decoration: none;
+  color: #000;
+  background-color: #ffbf00;
+  border-radius: 4px;
+  padding: 1rem 1.7rem;
+  font-size: 1.2rem;
+  display: inline-block;
+  line-height: 1.33;
+  font-weight: bold;
+}
+
+.introducao .botao:hover {
+  background-color: #a66f00;
+}
+
+a {
+  text-decoration: none;
+}
+.negrito {
+  font-weight: bold;
+}
+
+.container {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  margin: 0px;
+}
+.botao2 {
+  background-color: #2e2e2e;
+  color: #cccccc;
+   text-decoration: none;
+  border-radius: 4px;
+  padding: 1rem 1.7rem;
+  font-size: 1.2rem;
+  display: inline-block;
+  line-height: 1.33;
+  font-weight: bold;
+}

@@ -1,0 +1,93 @@
+.bikes-lista {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 4rem;
+  gap: 3rem;
+}
+.bikes h1 {
+  font-size: 4rem;
+ padding-left: 2rem;
+ padding-right: 2rem;
+  margin-bottom: 4rem;
+  margin-top: 5rem;
+  max-width: 1200px;
+}
+.bikes-lista a {
+  font-size: 1.5rem;
+  color: #111111;
+}
+.bikes-lista span {
+  font-size: 1.2rem;
+  color: #595959;
+}
+.bikes-lista h2::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  background: #ffbb00;
+  position: absolute;
+  margin-left: -16px;
+  margin-top: 16px;
+}
+.bikes-lista a:hover {
+  font-size: 1.7rem;
+  transition: 0.3s;
+}
+
+@media (max-width: 1000px) {
+  .bikes-lista {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  .bikes h1 {
+    font-size: 3rem;
+    padding: 2rem 4rem;
+    margin-bottom: 4rem;
+    margin-top: 5rem;
+  }
+  .bikes-lista a {
+    font-size: 1rem;
+    color: #111111;
+  }
+  .bikes-lista span {
+    font-size: 1rem;
+    color: #595959;
+  }
+}
+@media (max-width: 700px) {
+  /* .bikes-lista img {
+    width: 17rem;
+    height: 18rem;
+  } */
+  .bikes-lista {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    padding: 1rem;
+    gap: 1rem;
+    overflow-x: auto;
+  }
+  .bikes h1 {
+    font-size: 2.5rem;
+    padding: 2rem 4rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .bikes-lista a {
+    font-size: 1rem;
+    color: #111111;
+    min-width: 280px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1rem;
+  }
+  .bikes-lista span {
+    font-size: 1rem;
+    color: #595959;
+  }
+}
